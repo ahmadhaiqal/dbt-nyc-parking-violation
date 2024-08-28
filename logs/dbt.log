@@ -1,0 +1,95 @@
+[0m22:19:03.057738 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022A9BFE9520>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022A9BFE9250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022A9BFE90A0>]}
+
+
+============================== 22:19:03.073270 | 77f69fa4-d6fd-44df-9553-fb3c53b673b3 ==============================
+[0m22:19:03.073270 [info ] [MainThread]: Running with dbt=1.6.1
+[0m22:19:03.076284 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\User\\.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt init', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m22:19:03.079270 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': WindowsPath('C:/Users/User/.dbt')}
+[0m22:19:03.081274 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m22:20:14.005145 [debug] [MainThread]: Starter project path: C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\site-packages\dbt\include\starter_project
+[0m22:20:14.370663 [info ] [MainThread]: 
+Your new dbt project "nyc_oarking_violation" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m22:20:14.374662 [info ] [MainThread]: Setting up your profile.
+[0m22:20:17.221346 [info ] [MainThread]: No sample profile found for duckdb.
+[0m22:20:17.224321 [debug] [MainThread]: Command `dbt init` succeeded at 22:20:17.224321 after 74.23 seconds
+[0m22:20:17.227325 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022A9BD18AD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022A9BE18AA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022A9B9DA840>]}
+[0m22:20:17.229324 [debug] [MainThread]: Flushing usage events
+[0m22:21:01.753257 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022AB546A180>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022AB5118B60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022AB546A000>]}
+
+
+============================== 22:21:01.764476 | dcb0afec-9b3e-4eb8-85ce-1776775ec501 ==============================
+[0m22:21:01.764476 [info ] [MainThread]: Running with dbt=1.6.1
+[0m22:21:01.767473 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\User\\.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m22:21:19.069204 [debug] [MainThread]: Starter project path: C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\site-packages\dbt\include\starter_project
+[0m22:21:19.382482 [info ] [MainThread]: 
+Your new dbt project "nyc_parking_violations" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m22:21:19.387483 [info ] [MainThread]: Setting up your profile.
+[0m22:21:21.928803 [info ] [MainThread]: No sample profile found for duckdb.
+[0m22:21:21.932800 [debug] [MainThread]: Command `dbt init` succeeded at 22:21:21.931802 after 20.22 seconds
+[0m22:21:21.934800 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022AB50FF980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022AB4B46630>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022AB4B500B0>]}
+[0m22:21:21.936803 [debug] [MainThread]: Flushing usage events
+[0m22:23:12.536071 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE92D7A900>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE92D7A8D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE92D7A4E0>]}
+
+
+============================== 22:23:12.562039 | 68a66c4a-4e32-42f1-b3d3-63832dfe8971 ==============================
+[0m22:23:12.562039 [info ] [MainThread]: Running with dbt=1.6.1
+[0m22:23:12.566040 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\User\\.dbt', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m22:23:12.568038 [info ] [MainThread]: dbt version: 1.6.1
+[0m22:23:12.571041 [info ] [MainThread]: python version: 3.12.3
+[0m22:23:12.574039 [info ] [MainThread]: python path: C:\Users\User\AppData\Local\Programs\Python\Python312\python.exe
+[0m22:23:12.577040 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m22:23:12.583058 [info ] [MainThread]: Using profiles dir at C:\Users\User\.dbt
+[0m22:23:12.585039 [info ] [MainThread]: Using profiles.yml file at C:\Users\User\.dbt\profiles.yml
+[0m22:23:12.587041 [info ] [MainThread]: Using dbt_project.yml file at G:\My Drive\[01] Ahmad Haiqal\[06] Data Engineering\[01] Personal Project\[02] Parking Violation Data\dbt_project.yml
+[0m22:23:12.590038 [info ] [MainThread]: Configuration:
+[0m22:23:12.591039 [info ] [MainThread]:   profiles.yml file [[31mERROR not found[0m]
+[0m22:23:12.596049 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m22:23:12.598043 [info ] [MainThread]: Required dependencies:
+[0m22:23:12.600039 [debug] [MainThread]: Executing "git --help"
+[0m22:23:12.641038 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m22:23:12.645046 [debug] [MainThread]: STDERR: "b''"
+[0m22:23:12.648038 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m22:23:12.650039 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m22:23:12.652038 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m22:23:12.654039 [info ] [MainThread]: dbt looked for a profiles.yml file in C:\Users\User\.dbt\profiles.yml, but did
+not find one. For more information on configuring your profile, consult the
+documentation:
+
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m22:23:12.657039 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <G:\My Drive\[01] Ahmad Haiqal\[06] Data Engineering\[01] Personal Project\[02] Parking Violation Data\dbt_project.yml> not found
+
+[0m22:23:12.661043 [debug] [MainThread]: Command `dbt debug` failed at 22:23:12.659037 after 0.16 seconds
+[0m22:23:12.666042 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE92AB9460>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE90614CB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE92C94A10>]}
+[0m22:23:12.670042 [debug] [MainThread]: Flushing usage events
